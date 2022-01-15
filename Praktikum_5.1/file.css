@@ -1,0 +1,39 @@
+.kuning fieldset{
+    background-color: rgba(255, 255, 0, 0.795);
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    width: 200px;
+    height: 600px;
+    border: 0; 
+}
+
+.oren fieldset{
+    background-color: rgb(255, 102, 0);
+    position: absolute;
+    left: 30%;
+    top: 3%;
+    width: 200px;
+    height: 600px;
+    border: 0; 
+}
+
+.hijau fieldset{
+    background-color:rgb(69, 180, 84);
+    position: absolute;
+    left: 55%;
+    top: 3%;
+    width: 200px;
+    height: 600px;
+    border: 0; 
+}
+
+.biru fieldset{
+    background-color: rgb(0, 217, 255);
+    position: absolute;
+    left: 80%;
+    top: 3%;
+    width: 200px;
+    height: 600px;
+    border: 0; 
+}
