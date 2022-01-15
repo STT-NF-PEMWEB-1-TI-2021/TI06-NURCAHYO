@@ -1,0 +1,37 @@
+body{
+    display: flex;   
+    margin: 1px;
+}
+nav{
+    background: pink;
+    width: 30vh;
+    height: 95.5vh;
+}
+header{
+    width: 179vh;
+    height: 20vh;
+    background: khaki;
+}
+
+.main article{
+    width: 154vh;
+    height: 45vh;
+}
+
+footer{
+    width: 179vh;
+    height: 22vh;
+    background: khaki;
+}
+.main{
+    display: flex;
+}
+
+.main aside{
+    background: aqua;
+    height: 45vh ;
+    width: 20.8vh;
+}
+nav, header, footer, article, aside{
+    padding: 1em;
+}
