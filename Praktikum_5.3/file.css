@@ -1,0 +1,60 @@
+.box1 fieldset{
+    background-color: yellow;
+    border: 2px solid black;
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+}
+
+.box2 fieldset{
+    background-color: tomato;
+    border: 2px solid black;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    right: 5%;
+}
+
+.box3 fieldset{
+    background-color: lightgreen;
+    border: 2px solid black;
+    width: 180px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+
+.box4 fieldset{
+    background-color: lightgrey;
+    border: 2px solid black;
+    width: 59%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.box5 fieldset{
+    background-color: darkturquoise;
+    border: 2px solid black;
+    width: 12%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 83%;
+}
+
+.box6 fieldset{
+    background-color: blue;
+    border: 2px solid black;
+    width: 91%;
+    height: 50px;
+    position: absolute;
+    top: 83%;
+    left: 4%;
+}
