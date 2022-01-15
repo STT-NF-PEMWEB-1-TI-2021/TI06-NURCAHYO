@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Chat</title>
+</head>
+<style>
+    body{
+        flex-direction: column;
+    }
+
+    #chatbox{
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 31%;
+        height: 20em;
+        display: flex;
+        margin-left: 1px;
+        padding: 1px;
+    }
+
+    #chat{
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 31%;
+        margin-top: 5px;
+    }
+
+    #tombol{
+        background-color: cyan;
+    }
+</style>
+<body>
+    <div id="chatbox"></div>
+    <div>
+        <input type="text" id="chat" placeholder="Masukan pesan...">
+        <button id="tombol">Kirim</button>
+    </div>
+    <script>
+        let chat = document.getElementById("chatbox");
+        const chatbox = document.getElementById("chat");
+        const tombol = document.getElementById("tombol");
+
+        tombol.addEventListener("click", function(){
+            chat.innerHTML = chat.innerHTML + "<br>" + chatbox.value;
+            chatbox.value = "";
+        });
+    </script>
+</body>
+</html>

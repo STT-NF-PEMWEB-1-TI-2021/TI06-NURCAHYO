@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        h2{
+            padding-left: 5%;
+        }
+        .gambar img{
+            width: 20%;
+            height: 10%;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h2>Image Picker</h2>
+        <select id="hewan" onchange="cetak_gambar()">
+            <option value="ayam">Ayam</option>
+            <option value="beruang">Beruang</option>
+            <option value="elang">Elang</option>
+            <option value="gorila">Gorila</option>
+            <option value="jerapah">Jerapah</option>
+            <option value="kucing">Kucing</option>
+            <option value="musang">Musang</option>
+        </select>
+
+    <br>
+    <br>
+    <br>
+        <div class="gambar">
+            <img src="" id="gambar">
+        </div>
+
+
+
+
+
+
+    <script>
+        function cetak_gambar() {
+            const hewan = document.getElementById("hewan");
+            const gambar = document.getElementById("gambar");
+
+            if (hewan.value === "ayam"){
+                    gambar.src = "ayam.jpg"
+                    alert("ini merupakan gambar Ayam");
+                }
+            if (hewan.value === "beruang"){
+                    gambar.src = "beruang.jpg"
+                    alert("ini merupakan gambar Beruang");
+                }
+            if (hewan.value === "elang"){
+                    gambar.src = "elang.jpg"
+                    alert("ini merupakan gambar Elang")
+            }
+            if (hewan.value === "gorila"){
+                    gambar.src = "gorila.jpg"
+                    alert("ini merupakan gambar Gorila");
+                }
+            if (hewan.value === "jerapah"){
+                    gambar.src = "jerapah.jpg"
+                    alert("ini merupakan gambar Jerapah");
+                }
+            if (hewan.value === "kucing"){
+                    gambar.src = "kucing.jpg"
+                    alert("ini merupakan gambar Kucing");
+                }
+            if (hewan.value === "musang"){
+                    gambar.src = "musang.jpg"
+                    alert("ini merupakan gambar Musang");
+                }
+            if (hewan.value === "panda"){
+                    gambar.src = "panda.jpg"
+                    alert("ini merupakan gambar Panda");
+                }
+           
+        }
+    </script>
+</body>
+</html>
